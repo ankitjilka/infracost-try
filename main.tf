@@ -10,7 +10,7 @@ resource "aws_instance" "example_instance" {
 
 
   root_block_device {
-    volume_size = 136  # Specify the desired root volume size in GB
+    volume_size = 36  # Specify the desired root volume size in GB
     volume_type = "gp2"  # Specify the desired EBS volume type
   }
 
